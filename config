@@ -167,8 +167,8 @@ exec bash -c "nm-applet"
 #exec bash -c "mate-keyboard-properties"
 assign [class="(?i)Pidgin"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/pidgin'
-#assign [class="(?i)Signal"] 1
-#exec --no-startup-id i3-msg 'workspace 1; exec nw /home/dc7ia/Signal'
+assign [class="(?i)Signal"] 1
+exec --no-startup-id i3-msg 'workspace 1; exec nw /home/dc7ia/Signal'
 assign [class="(?i)Chromium"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/chromium-browser --profile-directory=Default --app-id=hbdpomandigafcibbmofojjchbcdagbl'
 assign [class="(?i)Thunderbird"] 2
