@@ -163,7 +163,7 @@ assign [class="(?i)Pidgin"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/pidgin'
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec nw /home/dc7ia/Signal'
-assign [class="(?i)Tweetdeck"] 1
+assign [class="(?i)twd"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec nw /home/dc7ia/git/twd'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
