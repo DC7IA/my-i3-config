@@ -172,7 +172,7 @@ exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
 assign [class="(?i)Mumble"] 9
-exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
+#exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
 exec --no-startup-id "setxkbmap -model pc105 -layout de,se -option grp:alt_shift_toggle"
 exec --no-startup-id zsh -c '/opt/telegram/Telegram -startintray'
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
