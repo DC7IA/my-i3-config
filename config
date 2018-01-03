@@ -163,7 +163,8 @@ exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/pidgin'
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 assign [class="(?i)twd"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec nw /home/dc7ia/git/twd'
+exec --no-startup-id i3-msg 'workspace 1; exec sleep 5 && nw /home/dc7ia/git/twd'
+#Sleep 5 seconds to make sure netowrk is up when we run tweetdeck
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Firefox"] 4
