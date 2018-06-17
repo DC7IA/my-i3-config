@@ -158,8 +158,8 @@ bar {
 
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec bash -c "nm-applet"
-assign [class="(?i)Pidgin"] 1
-#exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/pidgin'
+assign [class="(?i)mastodon-jfx"] 1
+exec --no-startup-id i3-msg 'workspace 1; exec /opt/mastodon-jfx/mastodon-jfx'
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 assign [class="(?i)twd"] 1
