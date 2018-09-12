@@ -156,7 +156,7 @@ bar {
         status_command i3status
 }
 
-bindsym $mod+y exec 'i3lock -i $(find ~/hintergrund -name "*.png" | shuf -n1)'
+bindsym $mod+y exec 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec bash -c "nm-applet"
 assign [class="(?i)mastodon-jfx"] 1
