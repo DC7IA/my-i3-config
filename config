@@ -156,7 +156,7 @@ bar {
         status_command i3status
 }
 
-bindsym $mod+y exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
+bindsym $mod+z exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec --no-startup-id "xfce4-panel"
 exec bash -c "nm-applet"
