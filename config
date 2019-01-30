@@ -166,11 +166,8 @@ assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 assign [class="(?i)Signal Beta"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop-beta' #signal beta for testing with different number
-assign [class="(?i)chromium-browser"] 1
-#exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/chromium-browser' # --profile-directory=Default --app-id=hbdpomandigafcibbmofojjchbcdagbl"'
-#exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/chromium-browser --profile-directory=Default --app-id=iiphllmmajdgjdkjifinfhgghlpceled'
-assign [class="(?i)nativefier"] 1
-exec --nostartup-id i3-msg 'workspace 1; exec /home/dc7ia/nativefier/chaos-social-chaos-social-linux-x64/chaos-social-chaos-social'
+assign [class="(?i)qTox"] 1
+exec --no-startup-id i3-msg 'workspace 1; exec /home/$USER/appimages/qTox-v1.16.3.x86_64.AppImage'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Firefox"] 4
@@ -178,7 +175,7 @@ exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
 assign [class="(?i)Mumble"] 9
-#exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
+exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
 #exec --no-startup-id "setxkbmap -model pc105 -layout dk,eu -option grp:alt_shift_toggle"
 exec --no-startup-id zsh -c '/opt/telegram/Telegram -startintray'
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
