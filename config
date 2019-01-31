@@ -160,14 +160,10 @@ bindsym $mod+z exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec --no-startup-id "xfce4-panel"
 exec bash -c "nm-applet"
-assign [class="(?i)mastodon-jfx"] 1
-#exec --no-startup-id i3-msg 'workspace 1; exec /opt/mastodon-jfx/mastodon-jfx'
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 assign [class="(?i)Signal Beta"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop-beta' #signal beta for testing with different number
-assign [class="(?i)qTox"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec /home/$USER/appimages/qTox-v1.16.3.x86_64.AppImage'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Firefox"] 4
