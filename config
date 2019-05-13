@@ -159,6 +159,7 @@ bar {
 bindsym $mod+z exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec --no-startup-id "xfce4-panel"
+exec --no-startup-id "redshift-gtk"
 exec bash -c "nm-applet"
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
