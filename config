@@ -156,6 +156,7 @@ bar {
         status_command i3status
 }
 
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 bindsym $mod+z exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec --no-startup-id "xfce4-panel"
