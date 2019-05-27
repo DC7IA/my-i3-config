@@ -168,6 +168,8 @@ assign [class="(?i)Signal Beta"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop-beta' #signal beta for testing with different number
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
+assign [class="(?i)Dino"] 3
+exec --no-startup-id i3-msg 'workspace 3; exec dino-im
 assign [class="(?i)Wire"] 3
 exec --no-startup-id i3-msg 'workspace 3; exec /snap/bin/wire --startup
 assign [class="(?i)Firefox"] 4
