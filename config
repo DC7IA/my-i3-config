@@ -172,6 +172,8 @@ assign [class="(?i)Dino"] 3
 exec --no-startup-id i3-msg 'workspace 3; exec dino-im
 assign [class="(?i)Wire"] 3
 exec --no-startup-id i3-msg 'workspace 3; exec /snap/bin/wire --startup'
+assign [class="(?i)Gajim"] 3
+exec --no-startup-id i3-msg 'workspace 3; exec gajim'
 assign [class="(?i)Firefox"] 4
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
 assign [class="(?i)Pavucontrol"] 10
