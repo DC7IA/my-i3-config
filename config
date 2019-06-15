@@ -164,8 +164,6 @@ exec --no-startup-id "redshift-gtk"
 exec bash -c "nm-applet"
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
-assign [class="(?i)Signal Beta"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop-beta' #signal beta for testing with different number
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Dino"] 3
