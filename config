@@ -162,6 +162,7 @@ exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
 exec --no-startup-id "xfce4-panel"
 exec --no-startup-id "redshift-gtk"
 exec bash -c "nm-applet"
+
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
 assign [class="(?i)Thunderbird"] 2
@@ -174,6 +175,8 @@ assign [class="(?i)Gajim"] 3
 exec --no-startup-id i3-msg 'workspace 3; exec gajim'
 assign [class="(?i)Firefox"] 4
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
+assign [class="(?i)Keepass"] 5
+exec --no-startup-id i3-msg 'workspace 1; exec keepass'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
 #assign [class="(?i)Mumble"] 9
