@@ -175,8 +175,7 @@ assign [class="(?i)Gajim"] 3
 exec --no-startup-id i3-msg 'workspace 3; exec gajim'
 assign [class="(?i)Firefox"] 4
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
-assign [class="(?i)Keepass"] 5
-exec --no-startup-id i3-msg 'workspace 1; exec keepass'
+exec --no-startup-id i3-msg 'workspace 5; exec keepass'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
 #assign [class="(?i)Mumble"] 9
