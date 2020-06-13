@@ -166,6 +166,7 @@ exec --no-startup-id "xfce4-panel -d"
 exec --no-startup-id "redshift-gtk"
 exec bash -c "nm-applet"
 exec --no-startup-id "nextcloud --background"
+exec --no-startup-id "gnome-ring --restore-last-window-state"
 
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
