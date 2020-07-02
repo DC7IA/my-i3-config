@@ -170,11 +170,11 @@ exec --no-startup-id "nextcloud --background"
 #exec --no-startup-id "gnome-ring --restore-last-window-state"
 
 assign [class="(?i)Signal"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop'
+exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop --start-in-tray'
 #assign [class="(?i)Session"] 1
 #exec --no-startup-id i3-msg 'workspace 1; exec session-messenger-desktop'
 assign [class="(?i)Wire"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec /snap/bin/wire --startup'
+exec --no-startup-id i3-msg 'workspace 1; exec "/snap/bin/wire --startup"'
 assign [class="(?i)Gajim"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec gajim'
 assign [class="(?i)Riot"] 1
