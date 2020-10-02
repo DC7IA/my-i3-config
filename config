@@ -178,7 +178,7 @@ exec --no-startup-id i3-msg 'workspace 1; exec "/snap/bin/wire --startup"'
 assign [class="(?i)Gajim"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec gajim'
 assign [class="(?i)Riot"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec "riot-web --hidden"'
+exec --no-startup-id i3-msg 'workspace 1; exec "flatpak run im.riot.Riot --hidden"'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace 5; exec keepassxc'
