@@ -190,7 +190,7 @@ exec --no-startup-id i3-msg 'workspace 4; exec caja --no-desktop'
 #exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
-exec --no-startup-id bash -c 'telegram-desktop -startintray'
+#exec --no-startup-id bash -c 'telegram-desktop -startintray'
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer set Master unmute && amixer set Headphone toggle"
