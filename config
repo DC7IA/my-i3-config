@@ -177,7 +177,6 @@ assign [class="(?i)Element"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec element-desktop"'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
-exec --no-startup-id i3-msg 'workspace 5; exec keepassxc'
 assign [class="(?i)Firefox"] 4
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
 assign [class="(?i)Caja"] 6
@@ -186,7 +185,7 @@ exec --no-startup-id i3-msg 'workspace 4; exec caja --no-desktop'
 #exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
 assign [class="(?i)Pavucontrol"] 10
 exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/pavucontrol'
-#exec --no-startup-id bash -c 'telegram-desktop -startintray'
+exec --no-startup-id i3-msg 'workspace 10; exec keepassxc'
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer set Master unmute && amixer set Headphone toggle"
