@@ -163,7 +163,6 @@ exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agen
 exec --no-startup-id synclient TapButton1=1 TapButton2=2 TapButton3=3 #enables tap with multiple fingers
 bindsym $mod+z exec zsh -c 'i3lock -i $(find ~/i3lock-png -name "*.png" | shuf -n1)'
 exec --no-startup-id "feh --randomize --bg-fill ~/hintergrund/*"
-#exec --no-startup-id "xfce4-panel -d"
 exec --no-startup-id "redshift-gtk"
 exec bash -c "nm-applet"
 exec --no-startup-id "nextcloud --background"
@@ -171,16 +170,12 @@ exec --no-startup-id "nextcloud --background"
 
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop --start-in-tray'
-#assign [class="(?i)Gajim"] 1
-#exec --no-startup-id i3-msg 'workspace 1; exec gajim'
 assign [class="(?i)Element"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec element-desktop"'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Firefox"] 4
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/firefox'
-assign [class="(?i)Caja"] 6
-exec --no-startup-id i3-msg 'workspace 4; exec caja --no-desktop'
 #assign [class="(?i)Mumble"] 9
 #exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mumble'
 assign [class="(?i)Pavucontrol"] 10
