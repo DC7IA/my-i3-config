@@ -171,7 +171,7 @@ exec --no-startup-id "nextcloud --background"
 assign [class="(?i)Signal"] 1
 exec --no-startup-id i3-msg 'workspace 1; exec signal-desktop --start-in-tray'
 assign [class="(?i)Element"] 1
-exec --no-startup-id i3-msg 'workspace 1; exec element-desktop"'
+exec --no-startup-id i3-msg 'workspace 1; exec element-desktop'
 assign [class="(?i)Thunderbird"] 2
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/thunderbird'
 assign [class="(?i)Firefox"] 4
